@@ -70,9 +70,18 @@ inline ll mymax(ll a, ll b) {
 }
 
 ll T = 1;
-ll m, n;
-const ll N = 1;
-ll aa[N];
+ll m, n, goal;
+bool flag;
+ll ans;
+ll const N = 1;
+ll const mo = 998244353;  // 记得检查是不是这个数
+ll a[N], b[N];
+ll s[4 * N];  // 为了奇妙数据结构
+ll dp[N];
+ll aa[N][N];
+short sh1[N];
+// short sh2[N][N];   需要再加，会爆
+// bool  vi[N][N]
 int main() {
   tt(T) {}
 }
