@@ -1,6 +1,7 @@
 #include <time.h>
 
 #include <algorithm>
+#include <array>
 #include <bitset>
 #include <cmath>
 #include <cstdio>
@@ -64,13 +65,19 @@ int read() {
   }
   return w * q;
 }
-
-inline ll mymax(ll a, ll b) {
-  return b & ((a - b) >> 63) | a & (~(a - b) >> 63);
+void reada(ll a[], ll n, ll st = 1) {
+  rep(i, 1, n) { cin >> a[i]; }
 }
-
+void printa(ll a[], ll n, ll st = 1) {
+  rep(i, st, n) { cout << a[i] << " "; }
+  cout << endl;
+}
+void printv(vector<ll> a) {
+  rep(i, 0, a.size()) cout << a[i] << " ";
+  cout << endl;
+}
 ll T = 1;
-ll m, n, goal;
+ll m, n, q, goal;
 bool flag;
 ll ans;
 ll const N = 1;
@@ -78,10 +85,12 @@ ll const mo = 998244353;  // 记得检查是不是这个数
 ll a[N], b[N];
 ll s[4 * N];  // 为了奇妙数据结构
 ll dp[N];
-// ll aa[N][N];需要再加，会爆
+
 short sh1[N];
 // short sh2[N][N];   需要再加，会爆
-// bool  vi[N][N]需要再加，会爆
+// ll aa[N][N];
+// bool  vi[N][N];
 int main() {
+  quick;
   tt(T) {}
 }
