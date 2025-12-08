@@ -72,10 +72,7 @@ void printa(ll a[], ll n, ll st = 1) {
   rep(i, st, n) { cout << a[i] << " "; }
   cout << endl;
 }
-void printv(vector<ll> a) {
-  rep(i, 0, a.size()) cout << a[i] << " ";
-  cout << endl;
-}
+
 ll T = 1;
 ll m, n, q, goal;
 bool flag;
