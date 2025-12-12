@@ -7,3 +7,5 @@ string 可以使用std::sort(str.begin(), str.end());
 string，vector 可以先排列再使用
 next_permutation(str.begin(), str.end());
 生成下一个排列
+
+__builtin_clz(unsigned x)
