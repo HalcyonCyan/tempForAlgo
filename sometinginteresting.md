@@ -11,5 +11,22 @@ next_permutation(str.begin(), str.end());
 __builtin_clz(unsigned x)
 检测二进制先导0个数
 
+int k = 63 - __builtin_clzll(ll a); 
+计算 xor_val 二进制表示中最高位的 1 所在的索引
+int logn = 31 - __builtin_clz(n);  // 一个快捷的取2为底对数的方法 
+
 __builtin_popcount(unsigned x)
 返回 x 的二进制表示中 1 的个数
+
+
+```
+double F(double x)
+{
+ double sum=0;
+ for(int i=n;i>=0;i--)
+ sum=sum*x+a[i];
+ return sum; 
+}
+```  多项式
+
+vector删除最早vec.erase(vec.begin());

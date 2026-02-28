@@ -40,7 +40,7 @@ using namespace std;
 #define up(a, k) upper_bound(a.begin(), a.end(), k)
 #define low(a, k) lower_bound(a.begin(), a.end(), k)
 #define psh(a) push_back(a)
-#define pop pop_back()
+//#define pop pop_back()
 #define seed srand(time(NULL));
 // #define endl          '\n'
 #define quick                  \
